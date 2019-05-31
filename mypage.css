@@ -1,0 +1,43 @@
+.box{
+    width:200px;
+    height:200px;
+    position:relative;
+    overflow:hidden;
+    border-radius:200px;
+    border:medium solid #666;
+}
+
+.image {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    max-width: 100%;
+}
+
+body {
+    color: #383838;
+    font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
+    font-size: 1.5em;
+    word-wrap: break-word;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    max-width: 100%;
+}
+
+div{
+    display:block;
+}
+
+table ,th,tr,td{
+    font-size:1.0em;
+    table-layout: fixed;
+    width: 100%;
+    word-wrap: break-word;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: solid 1px gray;
+    background-color: white;
+   
+    
+}
